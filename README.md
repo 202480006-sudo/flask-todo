@@ -43,3 +43,42 @@ Run the app
 ```console
 $ flask run
 ```
+
+
+## Enhancing a Flask Web Application with REST API Functionality
+-----------------------------------------------------
+## REST API for Flask Todo App
+
+This project extends an existing Flask Todo application by adding a REST API and CRUD functionality.
+
+### Features Added
+I added two features
+- Edit task
+- Delete task 
+
+### API Endpoints:
+These are the API endpoints I used:
+- GET -Retrieve all tasks and one specific task only
+- POST -Create a new task
+- PUT -Update an existing task
+- DELETE -Delete a task
+
+### 3. Error Handling
+The HTTP status codes error handling I use:
+
+- 200 -Successful request
+- 201 -created successfully
+- 400 -Bad request
+- 404 -not found
+
+### Testing
+
+### Postman Tests include:
+- GET methid -all tasks
+- POST method -create task
+- PUT method-update task
+- DELETE method- delete task
+- Negative test like invalid input and missing data
+
+### Run Tests:
+python -m pytest
